@@ -1,0 +1,21 @@
+.maintextt{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(231, 226, 218, 0.707)
+}.mainText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-style: italic;
+    width: 40%;
+    font-size: 26px;
+    padding: 20px;
+    & h4{
+        padding-top: 20px;
+       
+    }
+    & span{
+        color: blue;
+    }
+
+}

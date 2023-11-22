@@ -1,0 +1,38 @@
+
+.mainlefts{
+    display: flex;
+    justify-content: space-around;
+    padding: 6rem 0px ;
+}
+.left{
+    padding: 50px;
+    width: 400px;
+    text-align: start;
+    color: rgba(0,0,0,0.9);
+    /* font-size: 18px; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.right{
+    display: grid;
+    grid-template-columns: auto auto;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+    
+    /* display: flex;
+    justify-content: space-around;
+
+    &.lefts {
+        margin: 0 auto;
+        display: flex;
+        text-align: center;
+        border: 1px solid black;
+        &.h1{
+            margin: 10px;
+            color: white;
+        }
+    }
+    &.cards{
+        display: grid;
+        grid-template-columns: auto auto ;
+
+    } */
